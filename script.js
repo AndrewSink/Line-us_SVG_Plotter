@@ -1,7 +1,7 @@
 console.log('Have fun plotting!');
 
 let connected = false;
-let lineusAddress = "wss://line-us.local"; // WebSocket address for the plotter
+let lineusAddress = "ws://line-us.local"; // WebSocket address for the plotter
 let socket;
 const connectionStatus = document.getElementById('connectionStatus');
 
