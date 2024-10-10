@@ -8,10 +8,12 @@ Unfortunately, Line-us [doesn't support wss](https://github.com/Line-us/Line-us-
 Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by [ixd-hof](https://github.com/ixd-hof), but written for the web with no Processing knowledge required!
 
 ## Usage
-1. Wait for the Line-us to connect (status indicator will change once connected)
-2. Upload an SVG (make sure it contains paths)
-3. Move, scale, and position the SVG on the canvas
-4. Click 'Plot' to start the Line-us!
+1. Download and unzip all files
+2. Run index.html
+3. Wait for the Line-us to connect (status indicator will change once connected)
+4. Upload an SVG (make sure it contains paths)
+5. Move, scale, and position the SVG on the canvas
+6. Click 'Plot' to start the Line-us!
 
 ## To-do
 - [ ] Generate paths automatically
