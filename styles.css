@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Base styling for body and container */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    /* Prevent scrolling */
+}
+
+/* Sidebar styling for Bootstrap and fixed position */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    /* Increased to match Bootstrap's layout */
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    /* Ensure sidebar is always above other elements */
+}
+
+/* SVG container styling to maintain fixed dimensions and aspect ratio */
+#svg-container {
+    width: 800px;
+    /* Fixed width representing the plotter's drawing area */
+    height: 1422px;
+    /* Fixed height maintaining the aspect ratio (2000 / 1125) */
+    background-color: #eee;
+    /* Light background for visibility */
+    border: 1px solid #ddd;
+    /* Light border for clarity */
+    margin: 10px auto;
+    /* Center the container */
+    position: relative;
+    /* Relative positioning for contained elements */
+    overflow: hidden;
+    /* Hide any overflowing SVG content */
+}
+
+/* Ensure Bootstrap buttons appear above the SVG container */
+.container button, .sidebar .btn-custom {
+    z-index: 10;
+    /* Ensure buttons are on top of the SVG container */
+    position: relative;
+    /* Ensure proper stacking order */
+}
+
+/* Button styling to fit Bootstrap layout */
+.btn-custom {
+    width: 100%;
+    /* Full-width buttons for uniform appearance */
+}
+
+.sidebar h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* Ensure that the SVG container is always below interactive elements */
+.container, .sidebar {
+    z-index: 10;
+    /* Keep the interactive elements above the SVG */
+}
