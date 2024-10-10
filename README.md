@@ -12,7 +12,7 @@ Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by 
 4. Click 'Plot' to start the Line-us!
 
 ## To-do
-- [ ] Add path-generating functionality
+- [ ] Generate paths automatically
 - [ ] Fix scaling
 - [ ] Add simple text / drawing functionality?
 
