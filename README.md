@@ -9,7 +9,7 @@ Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by 
 
 ## Usage
 1. Download and unzip all files
-2. Run a local server.
+2. Run a local server
 3. Wait for the Line-us to connect (status indicator will change once connected)
 4. Upload an SVG (make sure it contains paths)
 5. Move, scale, and position the SVG on the canvas
