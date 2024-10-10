@@ -1,7 +1,7 @@
 # Line-us_SVG_Plotter
 Browser-based interface for the [Line-us](https://www.line-us.com/) drawing robot.
 
-Unforunately, Line-us [doesn't support wss](https://github.com/Line-us/Line-us-Programming?tab=readme-ov-file#websockets-connection)(whoops!), so you'll need to just download and run index.html to run locally. 
+Unforunately, Line-us [doesn't support wss](https://github.com/Line-us/Line-us-Programming?tab=readme-ov-file#websockets-connection) (whoops!), so you'll need to just download and run index.html to run locally. 
 
 <img width="600" alt="Line-us SVG Plotter interface" src="https://github.com/user-attachments/assets/14f33888-74cc-4f71-b41e-e0ec3d75271f">
 
