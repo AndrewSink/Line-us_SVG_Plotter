@@ -5,7 +5,7 @@ Unfortunately, Line-us [doesn't support wss](https://github.com/Line-us/Line-us-
 
 <img width="600" alt="Line-us SVG Plotter interface" src="https://github.com/user-attachments/assets/14f33888-74cc-4f71-b41e-e0ec3d75271f">
 
-Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by [ixd-hof](https://github.com/ixd-hof), but written for the web with no Processing knowledge required!
+Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by [ixd-hof](https://github.com/ixd-hof), but written for ~the web~ a local server with no Processing knowledge required!
 
 ## Usage
 1. Download and unzip all files
