@@ -1,7 +1,7 @@
 # Line-us SVG Plotter
 Browser-based interface for the [Line-us](https://www.line-us.com/) drawing robot.
 
-Unfortunately, Line-us [doesn't support wss](https://github.com/Line-us/Line-us-Programming?tab=readme-ov-file#websockets-connection) (whoops!). You'll need to download all files, unzip, and run index.html to run locally. 
+Unfortunately, Line-us [doesn't support wss](https://github.com/Line-us/Line-us-Programming?tab=readme-ov-file#websockets-connection) (whoops!). You'll need to download all files, unzip, and run a local server to upload files. 
 
 <img width="600" alt="Line-us SVG Plotter interface" src="https://github.com/user-attachments/assets/14f33888-74cc-4f71-b41e-e0ec3d75271f">
 
@@ -9,7 +9,7 @@ Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by 
 
 ## Usage
 1. Download and unzip all files
-2. Run index.html
+2. Run a local server.
 3. Wait for the Line-us to connect (status indicator will change once connected)
 4. Upload an SVG (make sure it contains paths)
 5. Move, scale, and position the SVG on the canvas
