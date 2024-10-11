@@ -22,6 +22,6 @@ Inspired by the [LineUs_SVG](https://github.com/ixd-hof/LineUs_SVG/) plotter by 
 - [ ] Fix scaling
 - [ ] Add simple text / drawing functionality?
 
-Unforunately, the arm on my Line-us broke ([apparently a common problem](https://forum.line-us.com/t/arm-broken-drawings/406)), so I'm not going to be able to update this much further. Pull requests welcome, or just fork and make your own!
+Unfortunately, the arm on my Line-us broke ([apparently a common problem](https://forum.line-us.com/t/arm-broken-drawings/406)), so I'm not going to be able to update this much further. Pull requests welcome, or just fork and make your own!
 
 <img width="600" alt="Line-us" src="https://github.com/user-attachments/assets/04a82da3-7f45-495b-be3f-1c9b8fa97fa3">
